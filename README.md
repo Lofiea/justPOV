@@ -12,7 +12,10 @@ JustPOV is a mobile app built to help salon staff manage turn-taking and appoint
 
 ## Tech Stack
 Mobile Frontend: React Native
+
 Backend: Node.js
+
 Design: Figma, OneNote (for draft) 
+
 Version Control: Git + GitHub
 
