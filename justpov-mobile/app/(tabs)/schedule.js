@@ -75,7 +75,7 @@ export default function ScheduleScreen() {
 
           {/* Today's Appointments */}
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>🗂 Today’s Appointments</Text>
+            <Text style={styles.sectionTitle}>Today’s Appointments</Text>
             <FlatList
               scrollEnabled={false}
               data={todayAppointments}
@@ -92,7 +92,7 @@ export default function ScheduleScreen() {
 
           {/* Time Off Request */}
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>📝 Request Time Off</Text>
+            <Text style={styles.sectionTitle}>Request Time Off</Text>
             <TouchableOpacity style={styles.button} onPress={requestTimeOff}>
               <Text style={styles.buttonText}>Request Day Off</Text>
             </TouchableOpacity>
